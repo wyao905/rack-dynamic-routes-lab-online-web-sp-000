@@ -9,5 +9,5 @@ class Application
       item_name = req.path.split("/items/").last
       @@items.find{|i| i.name == item_name}
       
-      resp.write
+      resp.write 
 end
