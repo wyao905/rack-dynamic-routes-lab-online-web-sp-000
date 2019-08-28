@@ -1,5 +1,5 @@
 class Application
   @@songs = []
   
-  def 
+  def call(env)
 end
